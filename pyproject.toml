@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "data-warehouse"
+version = "0.1.0"
+description = "creating dw with dbt"
+authors = ["venysssssssssss <shablaur7@hotmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+sqlalchemy = "^2.0.31"
+python-dotenv = "^1.0.1"
+psycopg2-binary = "^2.9.9"
+yfinance = "^0.2.40"
+dbt-postgres = "^1.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
